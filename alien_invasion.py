@@ -27,7 +27,6 @@ class AlienInvasion:
             # Watch for keyboard and mouse events.
             self._check_events()
             self.ship.update()
-            self._check_events()
 
     def _check_events(self):
         for event in pygame.event.get():
